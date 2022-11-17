@@ -1,0 +1,133 @@
+<!DOCTYPE html> <!-- Informa o browser que isso é um arquivo HTML. -->
+
+<html lang="pt-BR"> <!-- Marca o início do documento. -->
+
+    <head> <!-- "Comandos" de "pré-processamento". -->
+        <meta charset="UTF-8"> <!-- Conjunto de caracteres. -->
+        <!-- A linha abaixo trata da RESPONSIVIDADE. -->
+        <meta name="viewport" content="width=device-width">
+        <title>Carol | Sobre</title> <!-- Título da Janela. -->
+        <link href="css/sobre.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <img class="logo" src="img/logo.png" alt="A imagem da logo.">
+        <!-- h1 = heading 1, o título MAIOR. Os valores
+        vão de h1 a h6. -->
+        <h1 id="sobre" class="titulo">Sobre Mim</h1>
+
+        <p>
+            Tenho 17 anos, sofro no senac e tal e tal e tal Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Sequi, magni dolor. Corrupti amet distinctio eligendi 
+            delectus fugiat expedita facilis, ea, voluptatibus unde totam eaque animi, quisquam 
+            libero impedit hic iste.
+        </p>
+
+        <p>
+            <a href="https://maps.google.com/?q=R. Pires da Mota, 838" target="_blank">Meu sofrimento está localizado na aclimação, São Paulo</a>, próximo ao metrô Vergueiro. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, quas ea explicabo est neque 
+            iusto corrupti ducimus tempore laboriosam culpa suscipit! Totam itaque fugiat aspernatur et alias, 
+            possimus atque laudantium.
+        </p>
+
+        <!-- Insere figuras/imagens com legenda. -->
+        <figure class="meu-escritorio">
+            <img src="img/senac.jpg" alt="Um prédio de escritórios.">
+            <figcaption>
+                <em>Senac Aclimação</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            <a href="https://www.sp.senac.br/senac-aclimacao" target="_blank">Visite o site do senac</a> 
+            e faça parte também desse inferno na terra! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum cumque, deserunt, enim tempora quae 
+            voluptatum repellat rerum reiciendis sed quis ducimus alias, unde ullam sapiente dignissimos consectetur neque voluptatibus.
+        </p>
+
+        <p>
+            Conheça a minha <a href="#historia">história</a> para saber mais e tal e tal e veja também meus
+            <a href="#diferenciais">diferenciais</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam possimus fuga ex 
+            numquam, laborum velit fugiat esse quo sint sequi quia animi officia nesciunt illum? Suscipit repellat 
+            culpa labore?Harum corrupti earum ab nobis ad voluptatem, exercitationem labore reiciendis aut, eos doloribus. 
+            Maxime sed exercitationem ab sit optio excepturi, doloremque natus quia. Temporibus incidunt, illo tempore 
+            necessitatibus est assumenda.
+        </p>
+
+        <!-- O h2 é um pouco menor que o h1. -->
+        <h2 id="historia" class="subtitulo">História</h2>
+
+        <figure class="escritorio-antigo">
+            <img src="img/carolzinha.png" alt="Meu escritório antigo.">
+            <figcaption>
+                <em>Pequenos começos.</em>
+            </figcaption>
+        </figure>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum cumque, deserunt, enim tempora 
+            quae voluptatum repellat rerum reiciendis sed quis ducimus alias, unde ullam sapiente dignissimos 
+            consectetur neque voluptatibus.
+        </p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt velit ipsam vel doloremque in similique? 
+            Itaque alias, consequuntur tempore dolores, laudantium dicta, distinctio voluptatem hic quaerat sunt deleniti 
+            quasi vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, porro. Dicta consectetur corporis 
+            exercitationem libero possimus minima adipisci esse. Dolorum minima libero, placeat facere vero voluptates 
+            eum ratione officia sed?
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aperiam possimus fuga ex 
+            numquam, laborum velit fugiat esse quo sint sequi quia animi officia nesciunt illum? Suscipit repellat 
+            culpa labore?Harum corrupti earum ab nobis ad voluptatem, exercitationem labore reiciendis aut, eos doloribus. 
+            Maxime sed exercitationem ab sit optio excepturi, doloremque natus quia. Temporibus incidunt, illo tempore 
+            necessitatibus est assumenda.
+        </p>
+
+        <h2 id="diferenciais" class="subtitulo">Diferenciais</h2>
+        <ul>
+            <li>Leitora</li>
+            <li>Bom gosto musical</li>
+            <li>Humor quebrado</li>
+        </ul>
+
+        <h2 class="titulo">Contato</h2>
+
+        <div class="contato__secao">
+            <h3 class="contato__subtitulo">Correspondência</h3>
+            <!-- small = representa letras miúdas. -->
+            <small>(nunca, das -01h às 25h)</small>
+            <!-- address = representa ENDEREÇOS. -->
+            <address class="contato__info">
+                Sofrimento, brigas e fofocas:
+                <br> <!-- br = quebra de linha/pula linha. -->
+                Rua Pires da Mota, 838
+                <br>
+                Aclima do cão 
+                <br>
+                São Paulo - SP
+            </address>
+        </div>
+
+        <div class="contato__secao contato__secao--telefone">
+            <h3 class="contato__subtitulo">Telefones</h3>
+            <small>(nunca, das -01h às 25h)</small>
+            <dl class="contato__info">
+                <div>
+                    <dt class="contato__info-titulo">Eu não aguento mais grito:</dt>
+                    <dd class="contato__info-descricao"><a href="tel://11998868387">xx-xxxxx-xxxx</a></dd>
+                </div>
+                
+                <div>
+                    <dt class="contato__info-titulo">Cansei dessa gente :</dt>
+                    <dd class="contato__info-descricao"><a href="tel://1190905959">zz-zzzzz-zzzz</a></dd>
+                </div>
+            </dl>
+        </div>
+
+        <footer class="rodape">
+            <img src="img/logo.png" alt="Meu logo" class="rodape__logo">
+            <p class="rodape__copyright">&copy; Copyright by Carol</p>
+        </footer>
+    </body>
+</html> <!-- Marca o fim do documento. -->
